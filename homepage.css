@@ -1,0 +1,16 @@
+.heading {
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+}
+.hero {
+  padding: 100px;
+}
+.homepagebody {
+  background-image: url("banner.jpg");
+  background-position: center;
+  color: black;
+  background-attachment: fixed;
+}

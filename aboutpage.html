@@ -202,13 +202,41 @@
     </nav>
     <div class="collapse" id="navbarToggleExternalContent3">
       <div class="bg-light shadow-3 p-4">
-        <button class="btn btn-link btn-block border-bottom m-0">Home</button>
-        <button class="btn btn-link btn-block border-bottom m-0">About</button>
-        <button class="btn btn-link btn-block border-bottom m-0">Blog</button>
-        <button class="btn btn-link btn-block border-bottom m-0">
+        <button
+          class="btn btn-link btn-block border-bottom m-0"
+          id="home-button"
+          type="button"
+          onclick="window.location.href = 'homepage.html'"
+        >
+          Home
+        </button>
+        <button
+          class="btn btn-link btn-block border-bottom m-0"
+          id="about-button"
+          type="button"
+          onclick="window.location.href = 'aboutpage.html'"
+        >
+          About
+        </button>
+        <button
+          class="btn btn-link btn-block border-bottom m-0"
+          id="blog-button"
+          type="button"
+        >
+          Blog
+        </button>
+        <button
+          class="btn btn-link btn-block border-bottom m-0"
+          id="contact-button"
+          onclick="window.location.href = 'contactpage.html'"
+        >
           Contact
         </button>
-        <button class="btn btn-link btn-block m-0" id="register-button">
+        <button
+          class="btn btn-link btn-block m-0"
+          type="button"
+          id="register-button"
+        >
           Register
         </button>
       </div>
